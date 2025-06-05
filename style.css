@@ -1243,3 +1243,28 @@ iframe {
 .modal__item:not(:last-child) {
   margin-bottom: 15px;
 }
+.reviews {
+    background-color: var(--color-dark-blue);
+    padding-top: 330px;
+    padding-bottom: 285px;
+    position: relative;
+}
+.reviews__title {
+    margin-bottom: 80px;
+    position: relative;
+    z-index: 2;
+}
+.title--centered {
+    text-align: center;
+}
+.title {
+    font-size: clamp(32px, 4.04vw, 48px);
+    line-height: 1.25;
+    font-weight: 500;
+    margin: 0;
+}
+.reviews__title {
+    margin-bottom: 80px;
+    position: relative;
+    z-index: 2;
+}
