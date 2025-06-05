@@ -18,27 +18,7 @@
     --font-size: 16px;
   }
 }
-@font-face {
-  font-family: "Montserrat";
-  src: local("Montserrat-Regular"), url("../fonts/MontserratRegular.woff2") format("woff2"), url("../fonts/MontserratRegular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "MontserratMedium";
-  src: local("Montserrat-Medium"), url("../fonts/MontserratMedium.woff2") format("woff2"), url("../fonts/MontserratMedium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "MontserratBold";
-  src: local("Montserrat-Bold"), url("../fonts/MontserratBold.woff2") format("woff2"), url("../fonts/MontserratBold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
+
 html {
   position: relative;
   overflow-x: hidden;
@@ -154,12 +134,6 @@ fieldset {
 
 iframe {
   border: none;
-}
-
-/* Доступно скрыть элементы */
-.visually-hidden {
-  position: fixed;
-  transform: scale(0);
 }
 
 .container {
@@ -1242,29 +1216,4 @@ iframe {
 
 .modal__item:not(:last-child) {
   margin-bottom: 15px;
-}
-.reviews {
-    background-color: var(--color-dark-blue);
-    padding-top: 330px;
-    padding-bottom: 285px;
-    position: relative;
-}
-.reviews__title {
-    margin-bottom: 80px;
-    position: relative;
-    z-index: 2;
-}
-.title--centered {
-    text-align: center;
-}
-.title {
-    font-size: clamp(32px, 4.04vw, 48px);
-    line-height: 1.25;
-    font-weight: 500;
-    margin: 0;
-}
-.reviews__title {
-    margin-bottom: 80px;
-    position: relative;
-    z-index: 2;
 }
